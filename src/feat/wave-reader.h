@@ -61,7 +61,7 @@ namespace kaldi {
 /// (2^15-1)*[-1, 1], not the usual default DSP range [-1, 1].
 const BaseFloat kWaveSampleMax = 32768.0;
 
-/// This class reads and hold wave file header information.
+/// This class reads and holds wave file header information.
 class WaveInfo {
  public:
   WaveInfo() : samp_freq_(0), samp_count_(0),
